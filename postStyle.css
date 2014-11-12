@@ -1,0 +1,46 @@
+article {
+	background-color: grey;
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+}
+
+section, p {
+	background-color: white;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	position: relative;
+}
+
+p {
+	padding: 10px;
+}
+.name {
+	display: inline-block;
+	position: absolute;
+	width: 100px;
+	top: 10px;
+}
+.image {
+	display: inline-block;
+	width: 180px;
+	
+}
+img {
+	border-style: solid;
+	border-color: blue;
+	border-width: 2px;
+	width: 150px;
+	height: 100px;
+	display: block;
+}
+.timestamp {
+	color: grey;
+}
+h1 {
+	margin: 5px;
+	color: blue;
+}

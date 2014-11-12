@@ -1,0 +1,137 @@
+html, body, header, h1, h2, nav, ul, li, a, footer,small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: silver;
+}
+
+
+header {
+	background-color: red;
+	color: white;
+	padding: 0px;
+	border-bottom: medium solid black;
+}
+
+.company-name {
+	float: left;
+	padding: 10px;
+}
+
+.nav-links {
+	float: right;
+	background-color: red;
+}
+
+.nav-link {
+	list-style: none;
+	display: inline-block;
+	border-left: medium solid black;
+	padding: 10px;
+	background-color: red;
+}
+
+.dropdown {
+	list-style: none;
+	display: none;
+	position: absolute;
+	background: white;
+	color: black;
+}
+.dropdown-link{
+	width: 200px;
+	height: 40px;
+	border: 5px solid black;
+}
+.dropdown-link:hover {
+	background: grey;
+}
+
+
+nav ul ul li {
+	position: relative;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+header div.container {
+	border-right: medium solid black;
+	border-left: medium solid black;
+}
+
+section.container {
+	border-right: medium solid grey;
+	border-left: medium solid grey;
+	background-color: white;
+	padding-top: 0px;
+}
+
+aside {
+	display: inline-block;
+	width: 25%;
+	float: left;
+	padding:10px;
+}
+
+article {
+	display: inline-block;
+	width: 70%;
+	float: right;
+	padding: 10px;
+	border-left: medium solid grey;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+}
+
+footer {
+	background-color: grey;
+	color: white;
+	padding: 0px;
+}
+
+footer li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+footer nav {
+	float: right;
+}
+
+footer .year {
+	padding: 10px;
+	float: left;
+}
+
+div.container#bottom {
+	border: medium solid black;
+}
+
+/* UTILITY CLASSES */
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*.clearfix::after {
+	content: "";
+	clear: both;
+
+}*/
